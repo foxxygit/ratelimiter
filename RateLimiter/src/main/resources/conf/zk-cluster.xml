@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cluster>
+	<name>zkClient</name>
+	<url>10.25.8.140:2181</url>
+	<sessionTimeoutMs>60000</sessionTimeoutMs>
+	<connectionTimeoutMs>60000</connectionTimeoutMs>	
+	<retryTimes>3</retryTimes>
+	<retrySleepTimeMs>1000</retrySleepTimeMs>
+</cluster>
